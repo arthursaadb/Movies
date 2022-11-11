@@ -1,4 +1,4 @@
-package com.saad.movies.ui.theme
+package com.saad.tmdb.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

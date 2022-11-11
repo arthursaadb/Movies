@@ -1,4 +1,11 @@
 object Dependencies {
+    object Android {
+        const val gradle = "com.android.tools.build:gradle:${Versions.gradle}"
+        const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
+        const val kotlinSerialization = "org.jetbrains.kotlin:kotlin-serialization:${Versions.kotlin}"
+        const val kotlinSerializationRuntime = "org.jetbrains.kotlinx:kotlinx-serialization-json:${Versions.kotlinSerialization}"
+    }
+
     object Ktx {
         const val core = "androidx.core:core-ktx:${Versions.coreKtx}"
         const val room = "androidx.room:room-ktx:${Versions.roomKtx}"
@@ -21,8 +28,9 @@ object Dependencies {
 
     object Ktor {
         const val clientAndroid = "io.ktor:ktor-client-android:${Versions.ktor}"
-        const val clientSerialization = "io.ktor:ktor-client-serialization:${Versions.ktor}"
+        const val clientSerialization = "io.ktor:ktor-serialization-kotlinx-json:${Versions.ktor}"
         const val logging = "io.ktor:ktor-client-logging-jvm:${Versions.ktor}"
+        const val contentNegotiation = "io.ktor:ktor-client-content-negotiation:${Versions.ktor}"
     }
 
     object Moshi {

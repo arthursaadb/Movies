@@ -1,4 +1,4 @@
-package com.saad.movies.ui.theme
+package com.saad.tmdb.ui.theme
 
 import android.app.Activity
 import android.os.Build

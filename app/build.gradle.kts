@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
+    id("kotlinx-serialization")
 }
 
 android {
@@ -51,6 +52,8 @@ android {
 }
 
 dependencies {
+    implementation(Dependencies.Android.kotlinSerializationRuntime)
+
     implementation(Dependencies.Ktx.core)
     implementation(Dependencies.Ktx.room)
     implementation(Dependencies.Ktx.collection)
@@ -71,6 +74,7 @@ dependencies {
     implementation(Dependencies.Ktor.clientAndroid)
     implementation(Dependencies.Ktor.clientSerialization)
     implementation(Dependencies.Ktor.logging)
+    implementation(Dependencies.Ktor.contentNegotiation)
 
     implementation(Dependencies.Moshi.core)
 

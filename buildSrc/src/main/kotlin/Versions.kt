@@ -1,4 +1,9 @@
 object Versions {
+    const val gradle = "7.3.1"
+
+    const val kotlin = "1.7.10"
+    const val kotlinSerialization = "1.4.1"
+
     const val coreKtx = "1.9.0"
     const val lifecycleKtx = "2.6.0-alpha031"
     const val collectionKtx = "1.2.0"
@@ -13,7 +18,7 @@ object Versions {
 
     const val junit = "4.13.2"
 
-    const val ktor = "1.5.0"
+    const val ktor = "2.0.0"
 
     const val moshi = "1.14.0"
 

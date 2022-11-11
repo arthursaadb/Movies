@@ -1,4 +1,4 @@
-package com.saad.movies
+package com.saad.tmdb
 
 import org.junit.Test
 

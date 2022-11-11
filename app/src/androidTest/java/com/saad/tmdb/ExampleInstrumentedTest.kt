@@ -1,4 +1,4 @@
-package com.saad.movies
+package com.saad.tmdb
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
