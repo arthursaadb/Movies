@@ -33,6 +33,7 @@ class KtorClient {
                 protocol = URLProtocol.HTTPS
                 host = "api.themoviedb.org/3/"
                 parameters.append("apiKey", "66814f25f713494abb65e71b64a290c2")
+                parameters.append("language", "pt-BR")
             }
         }
     }
